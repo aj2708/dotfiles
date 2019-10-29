@@ -5,6 +5,7 @@ set fileformats=dos,unix
 
 execute pathogen#infect()
 execute pathogen#helptags()
+
 syntax enable
 filetype plugin indent on
 
@@ -39,3 +40,4 @@ augroup vimrc
 augroup END
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc<CR>
 nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.txt<CR>
+nnoremap q: <Nop>
